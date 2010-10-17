@@ -100,6 +100,13 @@ INSTALLED_APPS = (
     'south',
 )
 
+
+# UPDATE YOUR SENTRY INFO HERE.
+SENTRY_KEY = 'ENTER_YOUR_SENTRY_KEY_HERE'
+SENTRY_REMOTE_TIMEOUT = 5
+SENTRY_REMOTE_URL = ['http://server1/sentry/store/', 'http://server2/sentry/store/']
+
+
 # Place settings you want overridden for local development
 # in localsettings.py file in your projects root.
 try:

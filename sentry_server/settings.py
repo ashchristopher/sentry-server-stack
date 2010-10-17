@@ -3,7 +3,7 @@ PROJECT_PATH = os.path.dirname(__file__)
 
 # Django settings for sentry_server project.
 DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+TEMPLATE_DEBUG=True
 
 ADMINS = (
     # ('Your Name', 'your_email@domain.com'),

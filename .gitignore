@@ -1,2 +1,3 @@
 sentry_server/localsettings.py
-*.db
+sentry.db
+*.pyc

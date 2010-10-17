@@ -97,6 +97,7 @@ INSTALLED_APPS = (
     'paging',
     'sentry',
     'sentry.client',
+    'south',
 )
 
 # Place settings you want overridden for local development

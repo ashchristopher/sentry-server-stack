@@ -1,5 +1,4 @@
-# path to your virtualenv's sitepackages.
-ALLDIRS = [ '/path/to/site-packages' ]
+ALLDIRS = [ '/home/webdev/.virtualenvs/sentry/lib/python2.6/site-packages' ]
 
 # note that the above directory depends on the locale of your virtualenv,
 # and will thus be *different for each project!*
@@ -21,8 +20,8 @@ for item in list(sys.path):
        sys.path.remove(item)
 sys.path[:0] = new_sys_path
 
-# path to the project
-sys.path.append('/path/to/the/project')
+# this will also be different for each project!
+sys.path.append('/home/webdev/domains/sentry-server-stack/sentry_server')
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 import django.core.handlers.wsgi
 application = django.core.handlers.wsgi.WSGIHandler()
